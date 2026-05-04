@@ -1,10 +1,9 @@
-FCFS
-
 #include <stdio.h>
 
 int main()
 {
     int n, i;
+
     printf("Enter number of processes: ");
     scanf("%d", &n);
 
@@ -43,13 +42,16 @@ int main()
 }
 
 /*
-OUTPUT:
+OUTPUT
+
 Enter number of processes: 4
+
 Enter Arrival Time:
 0
 0
 0
 0
+
 Enter Burst Time:
 7
 3
@@ -60,4 +62,5 @@ Process AT      BT      CT      TAT     WT
 P1      0       7       7       7       0
 P2      0       3       10      10      7
 P3      0       4       14      14      10
+P4      0       6       20      20      14
 */
