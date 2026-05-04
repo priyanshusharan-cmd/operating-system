@@ -1,13 +1,22 @@
 # 🖥️ Operating Systems Lab Repository
 
-**Name:** Priyanshu Sharan
-**USN:** 1WA24CS223
-**Semester:** 4
-**Course:** Operating Systems
-**Course Code:** 23CS4PCOPS
-**Institution:** BMS College of Engineering (BMSCE), Bangalore
-**Department:** Computer Science and Engineering
-**Faculty:** Prof. Seema Patil
+---
+
+## 👨‍🎓 Student Details
+
+* **Name:** Priyanshu Sharan
+* **USN:** 1WA24CS223
+* **Semester:** 4
+* **Course:** Operating Systems
+* **Course Code:** 23CS4PCOPS
+
+---
+
+## 🏫 Institution Details
+
+* **College:** BMS College of Engineering (BMSCE), Bangalore
+* **Department:** Computer Science and Engineering
+* **Faculty:** Prof. Seema Patil
 
 ---
 
@@ -15,7 +24,7 @@
 
 This repository contains C implementations of fundamental **Operating System algorithms and concepts** as part of the 4th semester academic curriculum at BMSCE.
 
-The programs focus on:
+### 🔍 Focus Areas
 
 * CPU Scheduling Algorithms
 * Process Synchronization Problems
@@ -70,62 +79,62 @@ The programs focus on:
 
 ## ▶️ Execution Steps
 
-1. Clone the repository:
+### 1. Clone the repository
 
-   ```bash
-   git clone https://github.com/your-username/operating-system.git
-   cd operating-system
-   ```
+```bash
+git clone https://github.com/your-username/operating-system.git
+cd operating-system
+```
 
-2. Compile the program:
+### 2. Compile the program
 
-   ```bash
-   gcc filename.c -o output
-   ```
+```bash
+gcc filename.c -o output
+```
 
-3. Run the executable:
+### 3. Run the executable
 
-   ```bash
-   ./output
-   ```
-
----
-
-## 🎯 Learning Objectives
-
-* Understand CPU scheduling strategies and their performance metrics
-* Implement synchronization techniques and solve classic OS problems
-* Analyze real-time scheduling algorithms (RMS, EDF)
-* Strengthen C programming and problem-solving skills
-
----
-
-## 📚 References
-
-* **Operating System Concepts** – Abraham Silberschatz, Peter B. Galvin, Greg Gagne
-* **Modern Operating Systems** – Andrew S. Tanenbaum
-* **Operating Systems: Internals and Design Principles** – William Stallings
+```bash
+./output
+```
 
 ---
 
 ## 📂 Repository Structure
 
-```id="v3nqwp"
+```
 operating-system/
 │
 ├── scheduling-algorithms/
 ├── synchronization/
 ├── searching-algorithms/
-└── *.c files
+└── *.c
 ```
+
+---
+
+## 🎯 Learning Objectives
+
+* Understand CPU scheduling strategies and performance metrics
+* Implement synchronization techniques
+* Analyze real-time scheduling algorithms (RMS, EDF)
+* Improve C programming and problem-solving skills
+
+---
+
+## 📚 References
+
+* Operating System Concepts — Silberschatz, Galvin, Gagne
+* Modern Operating Systems — Andrew S. Tanenbaum
+* Operating Systems: Internals and Design Principles — William Stallings
 
 ---
 
 ## 📌 Notes
 
-* All programs are implemented for academic purposes.
-* Outputs depend on user input during execution.
-* Code prioritizes clarity and understanding over optimization.
+* Programs are implemented for academic purposes
+* Outputs depend on user input
+* Focus is on clarity rather than optimization
 
 ---
 
