@@ -141,7 +141,9 @@ operating-system/
 ## 👨‍💻 Author
 
 **Priyanshu Sharan**
-**USN: 1WA24CS223
-**BMS College of Engineering
+
+**USN: 1WA24CS223**
+
+**BMS College of Engineering**
 
 ---
