@@ -1,4 +1,4 @@
-# 🖥️ Operating Systems Lab Repository
+# 🖥️ Operating Systems
 
 ---
 
