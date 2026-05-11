@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🖥️ Operating System Laboratory
+# 🖥️ Operating System
 
 ### BMS College of Engineering, Bengaluru
 
