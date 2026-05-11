@@ -36,9 +36,9 @@
 
 # 📚 About Repository
 
-This repository contains **Operating System Laboratory Programs implemented in C** as part of the **Operating Systems Laboratory course** at **BMS College of Engineering (BMSCE)**.
+This repository contains **Operating System Laboratory programs implemented in C** as part of the **Operating Systems course** at **BMS College of Engineering (BMSCE)**.
 
-The repository covers important Operating System concepts including:
+The repository covers important OS concepts including:
 
 - CPU Scheduling Algorithms
 - Process Synchronization
@@ -62,7 +62,7 @@ The repository covers important Operating System concepts including:
 - Multilevel Queue Scheduling
 - Earliest Deadline First Scheduling
 - Rate Monotonic Scheduling
-- Proportional Lottery Scheduling
+- Proportional (Lottery) Scheduling
 
 ---
 
@@ -122,40 +122,11 @@ The repository covers important Operating System concepts including:
 | 6 | Multilevel Queue Scheduling | `multilevel-queue-scheduling.c` |
 | 7 | Earliest Deadline First Scheduling | `earliest-deadline-first-scheduling.c` |
 | 8 | Rate Monotonic Scheduling | `rate-monotonic-scheduling.c` |
-| 9 | Proportional Lottery Scheduling | `proportional-lottery-scheduling.c` |
+| 9 | Proportional Lottery Scheduling | `proportional-(lottery)-scheduling.c` |
 | 10 | Producer Consumer Problem | `producer-consumer-problem.c` |
 | 11 | Dining Philosophers Problem | `dining-philosophers-problem.c` |
 | 12 | Banker's Algorithm | `bankers-algorithm.c` |
 | 13 | Deadlock Detection Algorithm | `deadlock-detection-algorithm.c` |
-
----
-
-# 📂 Repository Structure
-
-```text
-operating-system/
-│
-├── cpu-scheduling/
-│   ├── first-come-first-served-scheduling.c
-│   ├── round-robin-scheduling.c
-│   ├── priority-scheduling-preemptive.c
-│   ├── priority-scheduling-non-preemptive.c
-│   ├── shortest-job-first-non-preemptive-scheduling.c
-│   ├── multilevel-queue-scheduling.c
-│   ├── earliest-deadline-first-scheduling.c
-│   ├── rate-monotonic-scheduling.c
-│   └── proportional-lottery-scheduling.c
-│
-├── synchronization/
-│   ├── producer-consumer-problem.c
-│   └── dining-philosophers-problem.c
-│
-├── deadlock/
-│   ├── bankers-algorithm.c
-│   └── deadlock-detection-algorithm.c
-│
-└── README.md
-```
 
 ---
 
@@ -170,13 +141,11 @@ gcc filename.c -o output
 ## ▶️ Execute the Program
 
 ### Linux / MacOS
-
 ```bash
 ./output
 ```
 
 ### Windows
-
 ```bash
 output.exe
 ```
