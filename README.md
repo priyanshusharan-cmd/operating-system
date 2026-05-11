@@ -1,11 +1,11 @@
 <div align="center">
 
-# 🖥️ Operating System
+# ☕ Object Oriented Java Programming
 
 ### BMS College of Engineering, Bengaluru
 
-<img src="https://img.shields.io/badge/Language-C-blue?style=for-the-badge&logo=c" />
-<img src="https://img.shields.io/badge/Course-Operating%20Systems-green?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Language-Java-orange?style=for-the-badge&logo=java" />
+<img src="https://img.shields.io/badge/Course-OOPJ-blue?style=for-the-badge" />
 <img src="https://img.shields.io/badge/College-BMSCE-red?style=for-the-badge" />
 
 ---
@@ -25,9 +25,9 @@
 
 | Detail | Information |
 |---|---|
-| **Faculty Name** | Dr. Seema Patil |
-| **Designation** | Associate Professor |
-| **Course** | Operating Systems |
+| **Faculty Name** | Shravya AR |
+| **Designation** | Assistant Professor |
+| **Course** | Object Oriented Java Programming |
 | **Department** | Computer Science and Engineering |
 
 </div>
@@ -36,77 +36,70 @@
 
 # 📚 About Repository
 
-This repository contains **Operating System Laboratory programs implemented in C** as part of the **Operating Systems course** at **BMS College of Engineering (BMSCE)**.
+This repository contains **Object Oriented Java Programming Laboratory Programs** implemented as part of the **OOPJ Laboratory course** at **BMS College of Engineering (BMSCE)**.
 
-The repository covers important OS concepts including:
+The repository covers important Java concepts including:
 
-- CPU Scheduling Algorithms
-- Process Synchronization
-- Deadlock Handling
-- Memory Management
-- Page Replacement Algorithms
-- File Allocation Techniques
-- Disk Scheduling Algorithms
-- Interprocess Communication
-- Multithreading Concepts
+- Java Fundamentals
+- Classes and Objects
+- Constructors
+- Inheritance
+- Packages
+- Exception Handling
+- Multithreading
+- AWT Graphics
+- Event Handling
+- GUI Applications
 
 ---
 
 # 🧠 Topics Covered
 
-## 🔹 CPU Scheduling Algorithms
-- First Come First Serve (FCFS)
-- Shortest Job First (SJF)
-- Priority Scheduling
-- Round Robin Scheduling
-- Multilevel Queue Scheduling
-- Earliest Deadline First Scheduling
-- Rate Monotonic Scheduling
-- Proportional (Lottery) Scheduling
+## 🔹 Java Basics
+- Quadratic Equation Solver
+- Student SGPA Calculator
+- Book Class using Constructor
+- toString() Method
 
 ---
 
-## 🔹 Process Synchronization
-- Producer Consumer Problem
-- Dining Philosophers Problem
-- Mutex and Semaphore Concepts
+## 🔹 Inheritance
+- Shape Area Calculation
+- Bank Account System
+- Method Overriding
+- Hierarchical Inheritance
 
 ---
 
-## 🔹 Deadlock Algorithms
-- Banker's Algorithm
-- Deadlock Detection Algorithm
+## 🔹 Packages and Exception Handling
+- CIE & SEE Packages
+- User Defined Exceptions
+- Inheritance-based Exception Handling
 
 ---
 
-## 🔹 Memory Management
-- First Fit Allocation
-- Best Fit Allocation
-- Worst Fit Allocation
-- Paging Techniques
-- Virtual Memory Concepts
+## 🔹 Multithreading
+- Thread Demonstration
+- IPC and Deadlock
+- Thread Synchronization
 
 ---
 
-## 🔹 Page Replacement Algorithms
-- FIFO Page Replacement
-- LRU Page Replacement
-- Optimal Page Replacement
+## 🔹 AWT & GUI Programming
+- Division Calculator
+- Mouse Events
+- Graphics Drawing
+- Event Handling
 
 ---
 
-## 🔹 File Allocation Techniques
-- Sequential Allocation
-- Indexed Allocation
-- Linked Allocation
-
----
-
-## 🔹 Disk Scheduling Algorithms
-- FCFS Disk Scheduling
-- SSTF Disk Scheduling
-- SCAN Disk Scheduling
-- C-LOOK Disk Scheduling
+## 🔹 Additional AWT Mini Projects
+- Smiley Face
+- House Hut
+- Traffic Light
+- Indian Flag
+- Car Drawing
+- Olympic Rings
 
 ---
 
@@ -114,19 +107,67 @@ The repository covers important OS concepts including:
 
 | Sl No | Program Name | File Name |
 |---|---|---|
-| 1 | First Come First Serve Scheduling | `first-come-first-served-scheduling.c` |
-| 2 | Round Robin Scheduling | `round-robin-scheduling.c` |
-| 3 | Priority Scheduling (Preemptive) | `priority-scheduling-preemptive.c` |
-| 4 | Priority Scheduling (Non-Preemptive) | `priority-scheduling-non-preemptive.c` |
-| 5 | Shortest Job First Scheduling | `shortest-job-first-non-preemptive-scheduling.c` |
-| 6 | Multilevel Queue Scheduling | `multilevel-queue-scheduling.c` |
-| 7 | Earliest Deadline First Scheduling | `earliest-deadline-first-scheduling.c` |
-| 8 | Rate Monotonic Scheduling | `rate-monotonic-scheduling.c` |
-| 9 | Proportional Lottery Scheduling | `proportional-(lottery)-scheduling.c` |
-| 10 | Producer Consumer Problem | `producer-consumer-problem.c` |
-| 11 | Dining Philosophers Problem | `dining-philosophers-problem.c` |
-| 12 | Banker's Algorithm | `bankers-algorithm.c` |
-| 13 | Deadlock Detection Algorithm | `deadlock-detection-algorithm.c` |
+| 1 | Quadratic Equation Solver | `quadratic-equation.java` |
+| 2 | Student SGPA Calculator | `student-details.java` |
+| 3 | Book Class Program | `book-class.java` |
+| 4 | Shape Inheritance Program | `shapes.java` |
+| 5 | Bank Account System | `bank-account.java` |
+| 6 | Student Package Program | `student-packages/` |
+| 7 | Inheritance Exception Handling | `inheritance-exception.java` |
+| 8 | Thread Demonstration | `thread-demo.java` |
+| 9 | Division Calculator GUI | `division-calculator.java` |
+| 10 | IPC and Deadlock | `ipc-and-deadlock.java` |
+| 11 | Mouse Events Program | `mouse-events.java` |
+| 12 | Graphics Demo | `graphics-demo.java` |
+| 13 | Smiley Face using AWT | `smiley-face.java` |
+| 14 | House Hut using AWT | `house-hut.java` |
+| 15 | Traffic Light using AWT | `traffic-light.java` |
+| 16 | Indian Flag using AWT | `india-flag.java` |
+| 17 | Car Drawing using AWT | `car-drawing.java` |
+| 18 | Olympic Rings using AWT | `olympic-rings.java` |
+
+---
+
+# 📂 Repository Structure
+
+```text
+java/
+│
+├── java-basics/
+│   ├── quadratic-equation.java
+│   ├── student-details.java
+│   └── book-class.java
+│
+├── inheritance/
+│   ├── shapes.java
+│   └── bank-account.java
+│
+├── packages/
+│   └── student-packages/
+│       ├── cie/
+│       ├── see/
+│       └── result.java
+│
+├── exception-handling/
+│   └── inheritance-exception.java
+│
+├── multithreading/
+│   ├── thread-demo.java
+│   └── ipc-and-deadlock.java
+│
+├── awt-and-swings/
+│   ├── division-calculator.java
+│   ├── mouse-events.java
+│   ├── graphics-demo.java
+│   ├── smiley-face.java
+│   ├── house-hut.java
+│   ├── traffic-light.java
+│   ├── india-flag.java
+│   ├── car-drawing.java
+│   └── olympic-rings.java
+│
+└── README.md
+```
 
 ---
 
@@ -135,55 +176,52 @@ The repository covers important OS concepts including:
 ## ✅ Compile the Program
 
 ```bash
-gcc filename.c -o output
+javac FileName.java
 ```
 
 ## ▶️ Execute the Program
 
-### Linux / MacOS
 ```bash
-./output
-```
-
-### Windows
-```bash
-output.exe
+java ClassName
 ```
 
 ---
 
 # 🛠️ Technologies Used
 
-- **Programming Language:** C
-- **Compiler:** GCC
+- **Programming Language:** Java
+- **GUI Framework:** AWT & Swing
 - **IDE:** Visual Studio Code
 - **Version Control:** Git & GitHub
-- **Operating System:** Linux / Windows
+- **Concepts:** OOP, Threads, Exception Handling, Graphics
 
 ---
 
 # 🎯 Learning Outcomes
 
-- Understand Operating System fundamentals
-- Implement CPU scheduling techniques
-- Analyze process synchronization problems
-- Learn memory management strategies
-- Understand deadlock prevention and detection
-- Practice disk and file management algorithms
+- Understand Object Oriented Programming Concepts
+- Implement Java Classes and Objects
+- Learn Inheritance and Polymorphism
+- Practice Exception Handling
+- Understand Multithreading Concepts
+- Build GUI Applications using AWT
+- Explore Java Graphics Programming
 
 ---
 
 # 📖 Course Concepts Covered
 
-- Process Management
-- CPU Scheduling
+- Classes and Objects
+- Constructors
+- Inheritance
+- Method Overriding
+- Packages
+- Exception Handling
+- Threads
 - Synchronization
-- Deadlocks
-- Memory Management
-- Virtual Memory
-- File Systems
-- Disk Scheduling
-- System Protection
+- GUI Programming
+- Event Handling
+- AWT Graphics
 
 ---
 
