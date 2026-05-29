@@ -1,3 +1,26 @@
+/*
+Algorithm: First Come First Serve (FCFS) Scheduling
+
+1. Start.
+2. Read the number of processes.
+3. Input Arrival Time and Burst Time for each process.
+4. Initialize current time to 0.
+5. For each process in the order of arrival:
+   a) If current time is less than Arrival Time,
+   update current time to Arrival Time.
+   b) Calculate Completion Time:
+   CT = Current Time + Burst Time
+   c) Update Current Time = CT.
+   d) Calculate Turnaround Time:
+   TAT = CT - AT
+   e) Calculate Waiting Time:
+   WT = TAT - BT
+6. Repeat for all processes.
+7. Display Process ID, Arrival Time, Burst Time,
+   Completion Time, Turnaround Time and Waiting Time.
+8. Stop.
+   */
+
 #include <stdio.h>
 
 int main()
@@ -43,7 +66,6 @@ int main()
 
 /*
 OUTPUT
-
 Enter number of processes: 4
 
 Enter Arrival Time:
