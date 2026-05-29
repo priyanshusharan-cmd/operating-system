@@ -1,3 +1,30 @@
+/*
+Algorithm: Round Robin Scheduling
+
+1. Start.
+2. Read the number of processes.
+3. Input Arrival Time and Burst Time for each process.
+4. Read the Time Quantum.
+5. Initialize Remaining Time = Burst Time for all processes.
+6. Insert all arrived processes into the ready queue.
+7. Select the first process from the queue.
+8. Execute the process for:
+   a) Time Quantum, or
+   b) Remaining Burst Time, whichever is smaller.
+9. Update the current time.
+10. Add newly arrived processes to the queue.
+11. If the process is not completed:
+    Add it back to the end of the queue.
+12. If the process completes:
+    Calculate Completion Time (CT).
+13. Repeat until all processes complete.
+14. Calculate:
+    TAT = CT - AT
+    WT = TAT - BT
+15. Display CT, TAT and WT for all processes.
+16. Stop.
+    */
+
 #include <stdio.h>
 
 int main()
@@ -5,8 +32,7 @@ int main()
     int n, quantum, time = 0, completed = 0;
     int queue[100], front = 0, rear = 0;
     int visited[100] = {0};
-
-    printf("1WA24CS223\n");
+    
     printf("Enter number of processes: ");
     scanf("%d", &n);
 
@@ -95,8 +121,6 @@ int main()
 
 /*
 OUTPUT
-
-1WA24CS223
 Enter number of processes: 5
 Enter AT and BT for P1: 0 5
 Enter AT and BT for P2: 1 3
