@@ -1,3 +1,27 @@
+/*
+Algorithm: Banker's Algorithm for Deadlock Avoidance
+
+1. Start.
+2. Read the number of processes and resources.
+3. Input the Allocation Matrix.
+4. Input the Maximum Demand Matrix.
+5. Input the Available Resources vector.
+6. Calculate the Need Matrix using:
+   Need = Maximum Demand - Allocation
+7. Initialize all processes as unfinished.
+8. Find a process whose Need is less than or equal to the Available Resources.
+9. If such a process is found:
+   a) Allocate the required resources.
+   b) Release its allocated resources after completion.
+   c) Mark the process as finished.
+   d) Add the process to the Safe Sequence.
+10. Repeat Steps 8 and 9 until all processes are finished or no process can be allocated.
+11. If all processes are finished, the system is in a Safe State.
+12. Display the Safe Sequence.
+13. Otherwise, report that the system is not in a Safe State.
+14. Stop.
+    */
+
 #include <stdio.h>
 
 int main() {
