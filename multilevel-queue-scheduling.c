@@ -1,3 +1,30 @@
+/*
+Algorithm: Multi-Level Queue Scheduling
+
+1. Start.
+2. Read the number of processes.
+3. For each process:
+   a) Read Arrival Time.
+   b) Read Burst Time.
+   c) Read Queue Number
+   (1-System Queue, 2-User Queue).
+4. Read the Time Quantum for the System Queue.
+5. Assign higher priority to System Queue.
+6. Execute System Queue processes using Round Robin scheduling.
+7. If a System Queue process is ready, execute it first.
+8. Execute User Queue processes using FCFS scheduling.
+9. If a new System Queue process arrives while a User Queue process is executing,
+   preempt the User Queue process.
+10. Continue execution until all processes are completed.
+11. Calculate:
+    a) Completion Time (CT)
+    b) Turnaround Time (TAT)
+    c) Waiting Time (WT)
+12. Calculate Average Turnaround Time and Average Waiting Time.
+13. Display the scheduling results.
+14. Stop.
+    */
+
 #include <stdio.h>
 #include <string.h>
 
@@ -16,8 +43,6 @@ int main() {
     int n, i, completed = 0;
     int current_time = 0, tq;
     float total_tat = 0, total_wt = 0;
-
-    printf("1WA24CS223\n");
 
     printf("Enter number of processes: ");
     scanf("%d", &n);
@@ -141,7 +166,6 @@ int main() {
 /*
 OUTPUT
 
-1WA24CS223
 Enter number of processes: 4
 
 Process p1
@@ -166,15 +190,12 @@ Enter Queue (1-System, 2-User): 1
 
 Enter Time Quantum for System Queue: 2
 
-PID	Q	AT	BT	CT	TAT	WT
-p1	1	0	4	6	6	2
-p2	1	0	3	7	7	4
-p3	2	0	8	20	20	12
-p4	1	10	5	15	5	0
+PID     Q       AT      BT      CT      TAT     WT
+p1      1       0       4       6       6       2
+p2      1       0       3       7       7       4
+p3      2       0       8       20      20      12
+p4      1       10      5       15      5       0
 
 Average Turnaround Time = 9.50
 Average Waiting Time = 4.50
-
-
-=== Code Execution Successful ===
 */
