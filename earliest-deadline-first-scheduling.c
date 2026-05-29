@@ -1,3 +1,27 @@
+/*
+Algorithm: Earliest Deadline First (EDF) Scheduling
+
+1. Start.
+2. Read the number of tasks.
+3. For each task, input:
+      a) Process ID
+      b) Burst Time
+      c) Relative Deadline
+      d) Period
+4. Read the total scheduling time.
+5. At every time unit:
+      a) Release new task instances when the current time is a multiple of the task period.
+      b) Assign a new absolute deadline to released tasks.
+6. Among all ready tasks, select the task with the earliest deadline.
+7. If two tasks have the same deadline, select the task with the smaller Process ID.
+8. Execute the selected task for one time unit.
+9. Decrease its remaining burst time.
+10. If no task is ready, keep the CPU idle.
+11. Repeat until the total scheduling time is completed.
+12. Display the task executed at each time unit.
+13. Stop.
+*/
+
 #include <stdio.h>
 #include <limits.h>
 
@@ -12,8 +36,7 @@ typedef struct {
 
 int main() {
     int n, total_time;
-
-    printf("1WA24CS223\n");
+    
     printf("Enter number of tasks: ");
     scanf("%d", &n);
 
@@ -77,14 +100,14 @@ int main() {
 
 /*
 OUTPUT
-1WA24CS223
+
 Enter number of tasks: 3
 
-Task 1: 1 3 7 20
-Task 2: 2 2 4 5
-Task 3: 3 2 8 10
+Enter PID, Burst, Deadline, and Period for Task 1: 1 3 7 20
+Enter PID, Burst, Deadline, and Period for Task 2: 2 2 4 5
+Enter PID, Burst, Deadline, and Period for Task 3: 3 2 8 10
 
-Enter total scheduling time: 20
+Enter total scheduling time (ms): 20
 
 Scheduling occurs for 20 ms
 
