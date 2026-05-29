@@ -29,8 +29,6 @@ Algorithm: Deadlock Detection Algorithm
 int main() {
     int n, m, i, j, k;
 
-    printf("1WA24CS223\n");
-
     printf("Enter the number of processes: ");
     scanf("%d", &n);
 
@@ -169,7 +167,6 @@ int main() {
 
 /*
 OUTPUT
-1WA24CS223
 Enter the number of processes: 5
 Enter the number of resources: 3
 
