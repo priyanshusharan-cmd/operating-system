@@ -165,7 +165,6 @@ int main() {
 
 /*
 OUTPUT
-
 Enter number of processes: 4
 
 Process p1
