@@ -27,8 +27,6 @@ Algorithm: Banker's Algorithm for Deadlock Avoidance
 int main() {
     int n, m, i, j, k;
 
-    printf("1WA24CS223\n");
-
     printf("Enter number of processes: ");
     scanf("%d", &n);
 
@@ -142,7 +140,6 @@ int main() {
 
 /*
 OUTPUT
-1WA24CS223
 Enter number of processes: 5
 Enter number of resources: 3
 
