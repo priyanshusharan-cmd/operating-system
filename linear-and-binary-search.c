@@ -1,3 +1,30 @@
+/*
+Algorithm: Linear Search and Binary Search
+
+1. Start.
+2. Read the number of elements in the array.
+3. Input the array elements.
+4. Read the key element to be searched.
+5. Display the search options:
+   a) Linear Search
+   b) Binary Search
+6. Read the user's choice.
+7. If Linear Search is selected:
+   a) Compare the key with each element sequentially.
+   b) If found, return its index.
+   c) Otherwise, return -1.
+8. If Binary Search is selected:
+   a) Initialize left and right pointers.
+   b) Find the middle element.
+   c) If key equals middle element, return its index.
+   d) If key is greater, search the right half.
+   e) If key is smaller, search the left half.
+   f) Repeat until the element is found or the search space becomes empty.
+9. If the returned index is -1, display "Element not found".
+10. Otherwise, display the index of the element.
+11. Stop.
+    */
+
 #include <stdio.h>
 
 int linear(int a[], int n, int key)
