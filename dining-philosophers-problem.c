@@ -101,7 +101,6 @@ int main()
 
 /*
 OUTPUT
-
 Philosopher 0 is thinking.
 Philosopher 1 is thinking.
 Philosopher 2 is thinking.
