@@ -1,3 +1,28 @@
+/*
+Algorithm: Rate Monotonic Scheduling (RMS)
+
+1. Start.
+2. Read the number of processes.
+3. Input CPU Burst Time and Period for each process.
+4. Initialize Remaining Burst Time for all processes.
+5. Calculate the Least Common Multiple (LCM) of all periods.
+6. Calculate CPU Utilization:
+   Utilization = Σ(Burst Time / Period)
+7. Calculate Liu and Layland Bound:
+   Bound = n × (2^(1/n) − 1)
+8. If Utilization ≤ Bound:
+   Display "Schedulable: TRUE".
+   Else:
+   Display "Schedulable: FALSE".
+9. Simulate scheduling from time 0 to LCM.
+10. Release a new job whenever the current time is a multiple of its period.
+11. Assign higher priority to the process with the smaller period.
+12. Execute the highest-priority ready process.
+13. If no process is ready, keep the CPU idle.
+14. Display scheduling events whenever the running process changes.
+15. Stop.
+    */
+
 #include <stdio.h>
 #include <math.h>
 
@@ -15,7 +40,6 @@ int lcm(int a, int b) {
 
 int main() {
     int n;
-    printf("1WA24CS223\n");
 
     printf("Enter the number of processes: ");
     scanf("%d", &n);
@@ -109,7 +133,6 @@ int main() {
 
 /*
 OUTPUT
-
 Enter the number of processes: 2
 Enter the CPU burst times:
 20 35
