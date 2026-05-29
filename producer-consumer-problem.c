@@ -1,3 +1,32 @@
+/*
+Algorithm: Producer-Consumer Problem using Semaphores
+
+1. Start.
+2. Initialize:
+   a) Buffer of fixed size.
+   b) Semaphore mutex = 1.
+   c) Semaphore empty = Buffer Size.
+   d) Semaphore full = 0.
+3. Display menu options:
+   a) Producer
+   b) Consumer
+   c) Exit
+4. If Producer is selected:
+   a) Check whether buffer is full.
+   b) If full, display "Buffer is full".
+   c) Otherwise, decrement empty and mutex.
+   d) Insert item into buffer.
+   e) Increment mutex and full.
+5. If Consumer is selected:
+   a) Check whether buffer is empty.
+   b) If empty, display "Buffer is empty".
+   c) Otherwise, decrement full and mutex.
+   d) Remove item from buffer.
+   e) Increment mutex and empty.
+6. Repeat until Exit is selected.
+7. Stop.
+   */
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -60,8 +89,6 @@ void consume() {
 int main() {
     int choice;
 
-    printf("\n1WA24CS223");
-
     while (1) {
         printf("\nEnter your choice:\n");
         printf("1. Producer\n2. Consumer\n3. Exit\n");
@@ -87,9 +114,6 @@ int main() {
 
 /*
 OUTPUT
-
-1WA24CS223
-
 Enter your choice:
 1. Producer
 2. Consumer
