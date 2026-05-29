@@ -1,9 +1,30 @@
+/*
+Algorithm: Shortest Remaining Time First (SRTF) Scheduling
+
+1. Start.
+2. Read the number of processes.
+3. Input Arrival Time and Burst Time for each process.
+4. Initialize Remaining Time = Burst Time for all processes.
+5. Set current time to 0.
+6. Find all processes that have arrived and are not completed.
+7. Select the process with the shortest remaining time.
+8. Execute the selected process for one time unit.
+9. Decrease its remaining time by 1.
+10. If the remaining time becomes 0:
+    a) Calculate Completion Time (CT).
+    b) Calculate Turnaround Time (TAT = CT - AT).
+    c) Calculate Waiting Time (WT = TAT - BT).
+    d) Mark the process as completed.
+11. Repeat Steps 6 to 10 until all processes are completed.
+12. Display CT, TAT and WT for all processes.
+13. Stop.
+    */
+
 #include <stdio.h>
 
 int main()
 {
     int n, i;
-    printf("1WA24CS223\n");
     printf("Enter number of processes: ");
     scanf("%d", &n);
 
@@ -66,7 +87,6 @@ int main()
 
 /*
 OUTPUT
-1WA24CS223
 Enter number of processes: 4
 Enter Arrival Time and Burst Time for P1: 0 8
 Enter Arrival Time and Burst Time for P2: 1 4
