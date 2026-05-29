@@ -1,3 +1,27 @@
+/*
+Algorithm: Priority Preemptive Scheduling
+
+1. Start.
+2. Read the number of processes.
+3. Input Arrival Time, Burst Time and Priority for each process.
+4. Initialize Remaining Time = Burst Time for all processes.
+5. Set current time to 0.
+6. Find all processes that have arrived and are not completed.
+7. Select the process with the highest priority
+   (smaller priority number indicates higher priority).
+8. Execute the selected process for one time unit.
+9. Decrease its Remaining Time by 1.
+10. If Remaining Time becomes 0:
+    a) Calculate Completion Time (CT).
+    b) Calculate Turnaround Time (TAT = CT - AT).
+    c) Calculate Waiting Time (WT = TAT - BT).
+    d) Mark the process as completed.
+11. Repeat Steps 6 to 10 until all processes are completed.
+12. Calculate average Waiting Time and Turnaround Time.
+13. Display the scheduling table.
+14. Stop.
+    */
+
 #include <stdio.h>
 
 int main() {
@@ -6,8 +30,6 @@ int main() {
     int rt[20], ct[20], tat[20], wt[20];
     int highest, pos;
     float avg_wt = 0, avg_tat = 0;
-
-    printf("1WA24CS223\n");
 
     printf("Enter number of processes: ");
     scanf("%d", &n);
@@ -75,8 +97,6 @@ int main() {
 
 /*
 OUTPUT
-
-1WA24CS223
 Enter number of processes: 5
 
 P1 Arrival Time: 0
@@ -98,7 +118,6 @@ P4 Priority: 6
 P5 Arrival Time: 4
 P5 Burst Time: 2
 P5 Priority: 10
-
 
 Process AT  BT  PR  CT  TAT WT
 P1      0   3   3   7   7   4
