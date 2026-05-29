@@ -1,3 +1,29 @@
+/*
+Algorithm: Deadlock Detection Algorithm
+
+1. Start.
+2. Read the number of processes and resources.
+3. Input the Allocation Matrix.
+4. Input the Request Matrix.
+5. Input the Available Resources vector.
+6. Initialize Work = Available.
+7. For each process:
+   a) If its Allocation is zero, mark it as finished.
+   b) Otherwise, mark it as unfinished.
+8. Find an unfinished process whose Request is less than or equal to Work.
+9. If such a process is found:
+   a) Add its Allocation to Work.
+   b) Mark the process as finished.
+   c) Add the process to the safe sequence.
+10. Repeat Steps 8 and 9 until no more processes can be satisfied.
+11. Check all processes:
+    a) If every process is finished, the system is in a Safe State.
+    b) Otherwise, the system is in Deadlock State.
+12. Display the Safe Sequence if no deadlock exists.
+13. Display the Deadlocked Processes if deadlock exists.
+14. Stop.
+    */
+
 #include <stdio.h>
 
 int main() {
