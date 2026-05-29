@@ -1,3 +1,20 @@
+/*
+Algorithm: Find the Smallest Element in an Array
+
+1. Start.
+2. Read the number of elements in the array.
+3. Input the array elements.
+4. Assume the first element is the smallest.
+5. Store its position.
+6. Traverse the remaining elements of the array.
+7. If a smaller element is found:
+   a) Update the smallest element.
+   b) Update its position.
+8. After traversing the array, display the smallest element.
+9. Display its position in the array.
+10. Stop.
+    */
+
 #include <stdio.h>
 
 int main()
