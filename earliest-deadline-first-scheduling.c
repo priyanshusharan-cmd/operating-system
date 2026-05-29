@@ -100,7 +100,6 @@ int main() {
 
 /*
 OUTPUT
-
 Enter number of tasks: 3
 
 Enter PID, Burst, Deadline, and Period for Task 1: 1 3 7 20
