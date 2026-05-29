@@ -1,3 +1,25 @@
+/*
+Algorithm: Priority Non-Preemptive Scheduling
+
+1. Start.
+2. Read the number of processes.
+3. Input Arrival Time, Burst Time and Priority for each process.
+4. Initialize current time to 0.
+5. Find all processes that have arrived and are not completed.
+6. Select the process with the highest priority
+   (smaller priority number indicates higher priority).
+7. Execute the selected process until completion.
+8. Calculate:
+      CT = Completion Time
+      TAT = CT - AT
+      WT = TAT - BT
+9. Mark the process as completed.
+10. Repeat Steps 5 to 9 until all processes are completed.
+11. Calculate average Waiting Time and Turnaround Time.
+12. Display the scheduling table.
+13. Stop.
+*/
+
 #include <stdio.h>
 
 int main() {
@@ -9,7 +31,6 @@ int main() {
     int highest_priority, selected;
     float avg_wt = 0, avg_tat = 0;
 
-    printf("1WA24CS223\n");
     printf("Enter number of processes: ");
     scanf("%d", &n);
 
@@ -73,8 +94,6 @@ int main() {
 
 /*
 OUTPUT
-
-1WA24CS223
 Enter number of processes: 5
 
 P1 Arrival Time: 0
@@ -97,12 +116,12 @@ P5 Arrival Time: 6
 P5 Burst Time: 1
 P5 Priority: 1
 
-Process AT BT PR CT TAT WT
-P1      0  3  5  3   3   0
-P2      2  2  3 11   9   7
-P3      3  5  2  8   5   0
-P4      4  4  4 15  11   7
-P5      6  1  1  9   3   2
+Process AT      BT      PR      CT      TAT     WT
+P1      0       3       5       3       3       0
+P2      2       2       3       11      9       7
+P3      3       5       2       8       5       0
+P4      4       4       4       15      11      7
+P5      6       1       1       9       3       2
 
 Average Waiting Time = 3.20
 Average Turnaround Time = 6.20
