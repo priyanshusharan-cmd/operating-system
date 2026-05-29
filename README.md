@@ -1,8 +1,8 @@
 <div align="center">
 
-<h1>🖥️ Operating System</h1>
+# 🖥️ Operating System
 
-<h3>BMS College of Engineering, Bengaluru</h3>
+### BMS College of Engineering, Bengaluru
 
 <p>
 <img src="https://img.shields.io/badge/Language-C-blue?style=for-the-badge&logo=c" />
@@ -21,25 +21,15 @@ Complete collection of Operating System laboratory programs implemented in **C L
 
 ---
 
-## 👨‍🎓 Student Information
+# 👨‍🎓 Student & Course Information
 
-| Particular | Details |
-|------------|----------|
-| **Name** | Priyanshu Sharan |
-| **USN** | 1WA24CS223 |
-| **Department** | Computer Science and Engineering |
-| **Institution** | BMS College of Engineering |
-
----
-
-## 👩‍🏫 Course Information
-
-| Particular | Details |
-|------------|----------|
-| **Course** | Operating Systems Laboratory |
-| **Department** | Computer Science and Engineering |
-| **Language Used** | C |
-| **Compiler** | GCC |
+| 👨‍🎓 Student Information | Details | 👩‍🏫 Course Information | Details |
+|---|---|---|---|
+| **Name** | Priyanshu Sharan | **Course** | Operating Systems Laboratory |
+| **USN** | 1WA24CS223 | **Faculty** | Dr. Seema Patil |
+| **Semester** | 4th Semester | **Department** | Computer Science and Engineering |
+| **Department** | Computer Science and Engineering | **Language Used** | C |
+| **Institution** | BMS College of Engineering | **Compiler** | GCC |
 
 ---
 
@@ -131,8 +121,8 @@ Complete collection of Operating System laboratory programs implemented in **C L
 
 # 📂 Laboratory Programs
 
-| Lab | Program Category | Programs |
-|------|------|------|
+| Lab No. | Program Category | Programs |
+|----------|------------------|-----------|
 | 1 | CPU Scheduling | FCFS, SJF, Priority, Round Robin |
 | 2 | Multi Level Queue Scheduling | Multilevel Queue |
 | 3 | Real Time Scheduling | EDF, RMS, Lottery Scheduling |
@@ -160,7 +150,7 @@ Complete collection of Operating System laboratory programs implemented in **C L
 | File Organization Programs | 3 |
 | Disk Scheduling Programs | 4 |
 
-### 📌 Total Programs : 30
+### 📌 Total Programs: 30
 
 ---
 
@@ -169,6 +159,8 @@ Complete collection of Operating System laboratory programs implemented in **C L
 ```bash
 gcc filename.c -o output
 ```
+
+---
 
 # ▶️ Execution
 
@@ -209,18 +201,77 @@ output.exe
 
 ---
 
-<div align="center">
+# 📁 Repository Structure
+
+```text
+Operating-System/
+│
+├── CPU-Scheduling/
+│   ├── FCFS.c
+│   ├── SJF.c
+│   ├── Priority.c
+│   └── RoundRobin.c
+│
+├── Real-Time-Scheduling/
+│   ├── EDF.c
+│   ├── RMS.c
+│   └── Lottery.c
+│
+├── Synchronization/
+│   ├── ProducerConsumer.c
+│   └── DiningPhilosophers.c
+│
+├── Deadlock/
+│   ├── BankersAlgorithm.c
+│   └── DeadlockDetection.c
+│
+├── Memory-Allocation/
+│   ├── FirstFit.c
+│   ├── BestFit.c
+│   └── WorstFit.c
+│
+├── Page-Replacement/
+│   ├── FIFO.c
+│   ├── LRU.c
+│   └── Optimal.c
+│
+├── File-Allocation/
+│   ├── Sequential.c
+│   ├── Indexed.c
+│   └── Linked.c
+│
+├── File-Organization/
+│   ├── SingleLevelDirectory.c
+│   ├── TwoLevelDirectory.c
+│   └── HierarchicalDirectory.c
+│
+├── Disk-Scheduling/
+│   ├── FCFS.c
+│   ├── SCAN.c
+│   ├── SSTF.c
+│   └── CLOOK.c
+│
+└── README.md
+```
+
+---
 
 # ⭐ Operating System Laboratory Repository ⭐
 
-### Developed By
+## Developed By
 
-## Priyanshu Sharan
+### Priyanshu Sharan
 
-### USN : 1WA24CS223
+**USN:** 1WA24CS223
 
-### Computer Science and Engineering
+**Department:** Computer Science and Engineering
 
-### BMS College of Engineering, Bengaluru
+**Institution:** BMS College of Engineering, Bengaluru
+
+---
+
+<div align="center">
+
+### 🌟 If you found this repository useful, consider giving it a star! 🌟
 
 </div>
